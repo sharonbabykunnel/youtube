@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../style"
+		},
+		{
+			"path": "../../style/project1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "style"
+	}
+}

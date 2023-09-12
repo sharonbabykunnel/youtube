@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube-Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/733/733590.png?w=740&t=st=1688965781~exp=1688966381~hmac=db930f818d2423c6b4808a218a16aa853d81077347d82811cacb108bd8e09b3d" />
+  </head>
+
+  <body>
+    <!-- header starts -->
+    <header class="header">
+      <div class="logo left">
+        <i class="material-symbols-outlined"> menu </i>
+        <img
+          title="YouTube Home"
+          src="https://www.freecodecamp.org/news/content/images/2022/01/yt-logo.png"
+        />
+      </div>
+      <div class="search center">
+        <form action="" class="search-bar-youtube">
+          <input type="text" placeholder="Search" />
+          <button>
+            <i title="Search" id="search-btn" class="material-symbols-outlined">
+              search
+            </i>
+          </button>
+        </form>
+      <a><img title="Search With your voice" class="microphone" src="images/mic.svg"></a>
+      </div>
+      <div class="icons right">
+        <i title="Create" class="material-symbols-outlined"> videocam </i>
+        <i title="Apps" class="material-symbols-outlined"> apps </i>
+        <i title="Notification" class="material-symbols-outlined">
+          notifications
+        </i>
+        <i title="Your Account" class="material-symbols-outlined">
+          account_circle
+        </i>
+      </div>
+    </header>
+    <!-- header ends -->
+    <!-- main content of youtube -->
+    <main>
+      <div class="side-bar">
+        <!-- navbar starts -->
+        <div class="nav">
+          <a class="nav-link">
+            <i class="material-symbols-outlined"> home </i>
+            <span>Home</span>
+          </a>
+          <a class="nav-link">
+            <i class="material-symbols-outlined"> play_arrow </i>
+            <span>Shorts</span>
+          </a>
+          <a class="nav-link">
+            <i class="material-symbols-outlined"> trending_up </i>
+            <span>Trending</span>
+          </a>
+        </div>
+        <hr />
+
+        <a class="nav-link">
+          <i class="material-symbols-outlined"> collections_bookmark </i>
+          <span>Library</span>
+        </a>
+        <a class="nav-link">
+          <i class="material-symbols-outlined"> history_toggle_off </i>
+          <span>History</span>
+        </a>
+        <a class="nav-link">
+          <i class="material-symbols-outlined"> smart_display </i>
+          <span>Your videos</span>
+        </a>
+        <a class="nav-link">
+          <i class="material-symbols-outlined"> recommend </i>
+          <span>Liked videos</span>
+        </a>
+        <a class="nav-link">
+          <i class="material-symbols-outlined"> expand_more </i>
+          <span>Show more</span>
+        </a>
+        <hr />
+        <a class="nav-link">
+          <p>Subscriprions</p>
+        </a>
+        <a class="nav-link">
+          <i class="channel-icon">
+            <img
+              class="channel-pic"
+              src="https://yt3.ggpht.com/Ybu5mW939QWZsOAxzsf1sOqHIFKf8QwY00Rt50hBLxJBjP5INAeD2zSnUMHn1uE6vf_rGwf2Wg=s176-c-k-c0x00ffffff-no-rj-mo"
+            />
+          </i>
+          <span>M4 Tech</span>
+        </a>
+        <a class="nav-link">
+          <i class="channel-icon">
+            <img
+              class="channel-pic"
+              src="https://yt3.ggpht.com/dNXHD2XSx1tKug2Qxmf7D20U3ctr35Um4eVZkJHtjv9OBwCb2WqFu3iWg5Mgg31KfnKWo3zthvs=s176-c-k-c0x00ffffff-no-rj-mo"
+            />
+          </i>
+          <span>Brototype</span>
+        </a>
+
+        <a class="nav-link">
+          <i class="channel-icon">
+            <img
+              class="channel-pic"
+              src="https://yt3.ggpht.com/SAOzCuxtQ2wfgDrYeZm_Mqc6tnJEDPEEmUPqPVpHY-7k5p0PAsSteRxpfiM_i2bNSxXyBlAKZQ=s176-c-k-c0x00ffffff-no-rj-mo"
+            />
+          </i>
+          <span>Village Food</span>
+        </a>
+
+        <hr />
+        <a class="nav-link">
+          <i class="material-symbols-outlined"> trending_up </i>
+          <span>Trending</span>
+        </a>
+        <a class="nav-link">
+          <i class="material-symbols-outlined"> local_mall </i>
+          <span>Shopping</span>
+        </a>
+        <a class="nav-link">
+          <i class="material-symbols-outlined"> music_note </i>
+          <span>Music</span>
+        </a>
+        <a class="nav-link">
+          <i class="material-symbols-outlined"> movie </i>
+          <span>Movies</span>
+        </a>
+        <a class="nav-link">
+          <i class="material-symbols-outlined"> stream </i>
+          <span>Live</span>
+        </a>
+        <a class="nav-link">
+          <i class="material-symbols-outlined"> stadia_controller </i>
+          <span>Gaming</span>
+        </a>
+        <a class="nav-link">
+          <i class="material-symbols-outlined"> newsmode </i>
+          <span>News</span>
+        </a>
+        <hr />
+        <a class="nav-link">
+          <i class="material-symbols-outlined"> settings </i>
+          <span>Settings</span>
+        </a>
+        <a class="nav-link">
+          <i class="material-symbols-outlined"> flag </i>
+          <span>Report History</span>
+        </a>
+
+        <a class="nav-link">
+          <i class="material-symbols-outlined"> help </i>
+          <span>Help</span>
+        </a>
+        <a class="nav-link">
+          <i class="material-symbols-outlined"> sms_failed </i>
+          <span>Send Feedback</span>
+        </a>
+        <a>
+          <p class="copyright">© 2023 Google LLC</p>
+          <!--Copyright text of Youtube-->
+        </a>
+      </div>
+
+      <!-- tags we seen before video suggestions -->
+      <div class="content">
+        <div class="tags-container">
+          <span class="tag">All</span>
+          <span class="tag">Music</span>
+          <span class="tag">News</span>
+          <span class="tag">Vineeth Sreenivasan</span>
+          <span class="tag">Mohanlal</span>
+          <span class="tag">Mamooty</span>
+          <span class="tag">Melodies</span>
+          <span class="tag">Computer Programming</span>
+          <span class="tag">Driving</span>
+        </div>
+        <div class="videos">
+          <!-- these are used to create thumnail,channel icon,view count and date sinece vide is posted  -->
+          <div class="video">
+            <div class="thumbnail">
+              <img src="images/m4tech.jpg" />
+            </div>
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://yt3.ggpht.com/Ybu5mW939QWZsOAxzsf1sOqHIFKf8QwY00Rt50hBLxJBjP5INAeD2zSnUMHn1uE6vf_rGwf2Wg=s176-c-k-c0x00ffffff-no-rj-mo"
+                />
+              </div>
+              <div class="title">
+                <h3>
+                  നമ്മൾ പുതിയ ബസും കുതിരയും വാങ്ങിച്ചു | Buying New Horse | M4
+                  Tech |
+                </h3>
+                <a href="#m4tech" class="link-to-channel">M4 Tech</a>
+                <span class="">2M Views&middot;3 Months Ago</span>
+              </div>
+            </div>
+          </div>
+          <!-- . -->
+          <div class="video">
+            <div class="thumbnail">
+              <img src="images/brototype.jpg" />
+            </div>
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://yt3.ggpht.com/dNXHD2XSx1tKug2Qxmf7D20U3ctr35Um4eVZkJHtjv9OBwCb2WqFu3iWg5Mgg31KfnKWo3zthvs=s176-c-k-c0x00ffffff-no-rj-mo"
+                />
+              </div>
+              <div class="title">
+                <h3>
+                  Revealed! What was the real secret!!😱🔥 | Brototype Malayalam
+                </h3>
+                <a href="#m4tech" class="link-to-channel">Brototype</a>
+                <span class="">2M Views&middot;10 Days Ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="images/salaar.jpg" />
+            </div>
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://yt3.googleusercontent.com/ytc/AOPolaQlS9t5U01vjPx8JT6hi1cVwzfhhQ72QClJ5GjVUw=s176-c-k-c0x00ffffff-no-rj-mo"
+                />
+              </div>
+              <div class="title">
+                <h3>
+                  Salaar Teaser | Prabhas, Prashanth Neel, Prithviraj, Shruthi
+                  Haasan, Hombale Films, Vijay Kiragandur
+                </h3>
+                <a href="#m4tech" class="link-to-channel"> Hombale Films</a>
+                <span class="">102M Views&middot;2 Days Ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="images/leo.jpg" />
+            </div>
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://yt3.googleusercontent.com/ytc/AOPolaRSViVNEGpwItPrspjUYNGY4LKX_idfxLOJTFDvVQ=s176-c-k-c0x00ffffff-no-rj-mo"
+                />
+              </div>
+              <div class="title">
+                <h3>
+                  LEO - Naa Ready Lyric Video | Thalapathy Vijay | Lokesh
+                  Kanagaraj | Anirudh Ravichander
+                </h3>
+                <a href="#m4tech" class="link-to-channel">Sony Music South</a>
+                <span class="">52M Views&middot;2 Weeks Ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="images/village food channel.jpg" />
+            </div>
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://yt3.ggpht.com/SAOzCuxtQ2wfgDrYeZm_Mqc6tnJEDPEEmUPqPVpHY-7k5p0PAsSteRxpfiM_i2bNSxXyBlAKZQ=s176-c-k-c0x00ffffff-no-rj-mo"
+                />
+              </div>
+              <div class="title">
+                <h3>
+                  JACKFRUIT BIRYANI | Beef Jackfruit Biryani Recipe | Cooking In
+                  Our Village
+                </h3>
+                <a href="#m4tech" class="link-to-channel"
+                  >Village food Channel</a
+                >
+                <span class="">2.6M Views&middot;1 Months Ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="images/sujithbakthan.jpg" />
+            </div>
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://yt3.ggpht.com/5O4duNjy7nb040AyA4ogzK2QtPi84CzeweYIyAO2w5aWiAjNA6iH_BbsA374sEoJSvfXxqoX=s176-c-k-c0x00ffffff-no-rj-mo"
+                />
+              </div>
+              <div class="title">
+                <h3>
+                  14 Hours Travel from China to Bali on Singapore Airlines |
+                  Free Food, Kids Priority & Entertainment
+                </h3>
+                <a href="#m4tech" class="link-to-channel">Sujith Bakthan</a>
+                <span class="">217k Views&middot;1 Day Ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="images/durga.jpg" />
+            </div>
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://yt3.googleusercontent.com/ytc/AOPolaQl0lfBIDRuSYeFIPhb4hiroYVO_v2d1U34yYDfxA=s176-c-k-c0x00ffffff-no-rj-mo"
+                />
+              </div>
+              <div class="title">
+                <h3>
+                  Object Oriented Programming (OOPs) Concepts In Java || by
+                  Durga sir
+                </h3>
+                <a href="#m4tech" class="link-to-channel"
+                  >Durga Software Solutions</a
+                >
+                <span class="">1.3M Views&middot;3 Years Ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="images/digital.jpg" />
+            </div>
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://yt3.googleusercontent.com/oQTviHOHFajXMU3X3tbrMDa7T1dkJd-h55GspznOVd2zetIDssuqw-ivJs_o8X7ZViiC5x6Mew=s176-c-k-c0x00ffffff-no-rj"
+                />
+              </div>
+              <div class="title">
+                <h3>
+                  ചന്ദ്രൻ ഭൂമിയിലേക്ക് പതിച്ചാൽ എന്ത് സംഭവിക്കും | What if Moon
+                  Fall into earth | Digital Science
+                </h3>
+                <a href="#m4tech" class="link-to-channel"
+                  >Digital Science Malayalam</a
+                >
+                <span class="">128K Views&middot;3 Years Ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="images/m4tech2.jpg" />
+            </div>
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://yt3.ggpht.com/Ybu5mW939QWZsOAxzsf1sOqHIFKf8QwY00Rt50hBLxJBjP5INAeD2zSnUMHn1uE6vf_rGwf2Wg=s176-c-k-c0x00ffffff-no-rj-mo"
+                />
+              </div>
+              <div class="title">
+                <h3>
+                  First Moving Aquarium In The World | ലോകത്തിലെ ആദ്യത്തെ ഓടുന്ന
+                  അക്വാറിയം | M4 Tech |
+                </h3>
+                <a href="#m4tech" class="link-to-channel">M4 Tech</a>
+                <span class="">2M Views&middot;3 Months Ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="images/karikk1.jpg" />
+            </div>
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AOPolaSwz4XbwW30aJBD1SbutXlkSLLpX8Hv4lvhyqrymg=s88-c-k-c0x00ffffff-no-rj"
+                />
+              </div>
+              <div class="title">
+                <h3>Priyapettavan Piyush | EP3 | Webseries | Karikku</h3>
+                <a href="#m4tech" class="link-to-channel">Karikk</a>
+                <span class="">2M Views&middot;1 Hour Ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="images/webdev.jpg" />
+            </div>
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://yt3.googleusercontent.com/ytc/AOPolaS101j27Disa_BYArytv-hXMRl8wNMtqZMTkrfH=s176-c-k-c0x00ffffff-no-rj-mo"
+                />
+              </div>
+              <div class="title">
+                <h3>Stop Trying To Memorize Code - Do This Instead</h3>
+                <a href="#m4tech" class="link-to-channel"
+                  >Web Dev Simplified
+                </a>
+                <span class="">2M Views&middot;3 Months Ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="images/surya_latest.jpg" />
+            </div>
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://yt3.googleusercontent.com/dxED1O-r5cRS73JBlUk4VS3pZHDfiHcuRjRbFMcf6KgYhxP4NUlD7x0h4TR1XTXkl-JGjTPTYQ=s176-c-k-c0x00ffffff-no-rj"
+                />
+              </div>
+              <div class="title">
+                <h3>
+                  Kanguva - Title Announcement | Suriya | Siva | Disha Patani |
+                  Devi Sri Prasad
+                </h3>
+                <a href="#m4tech" class="link-to-channel">Saregama Music </a>
+                <span class="">2M Views&middot;3 Months Ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="images/karikk2.jpg" />
+            </div>
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AOPolaSwz4XbwW30aJBD1SbutXlkSLLpX8Hv4lvhyqrymg=s88-c-k-c0x00ffffff-no-rj"
+                />
+              </div>
+              <div class="title">
+                <h3>Arrangement Kalyanam | Karikku | Comedy</h3>
+                <a href="#m4tech" class="link-to-channel">M4 Tech</a>
+                <span class="">37M Views&middot;3 Months Ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="images/karikk3.jpg" />
+            </div>
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AOPolaSwz4XbwW30aJBD1SbutXlkSLLpX8Hv4lvhyqrymg=s88-c-k-c0x00ffffff-no-rj"
+                />
+              </div>
+              <div class="title">
+                <h3>Thiruvonam | Karikku | Comedy</h3>
+                <a href="#m4tech" class="link-to-channel">M4 Tech</a>
+                <span class="">2M Views&middot;3 Months Ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="images/m4tech.jpg" />
+            </div>
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://yt3.ggpht.com/Ybu5mW939QWZsOAxzsf1sOqHIFKf8QwY00Rt50hBLxJBjP5INAeD2zSnUMHn1uE6vf_rGwf2Wg=s176-c-k-c0x00ffffff-no-rj-mo"
+                />
+              </div>
+              <div class="title">
+                <h3>
+                  നമ്മൾ പുതിയ ബസും കുതിരയും വാങ്ങിച്ചു | Buying New Horse | M4
+                  Tech |
+                </h3>
+                <a href="#m4tech" class="link-to-channel">M4 Tech</a>
+                <span class="">2M Views&middot;3 Months Ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="thumbnail">
+              <img src="images/alison.jpg" />
+            </div>
+            <div class="details">
+              <div class="author">
+                <img
+                  src="https://yt3.googleusercontent.com/ytc/AOPolaR491m6kpdTNEITldEDk9QtCfs_Q3iFbfJHYZU_eg=s176-c-k-c0x00ffffff-no-rj"
+                />
+              </div>
+              <div class="title">
+                <h3>My Trip to India | Exploring Kerala</h3>
+                <a href="#m4tech" class="link-to-channel"> Allison Anderson </a>
+                <span class="">1.6M Views&middot;3 Months Ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+<!-- End of code -->
